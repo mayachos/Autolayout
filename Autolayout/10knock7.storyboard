@@ -28,19 +28,19 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cebu.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="e66-Bk-5Kb">
-                                                    <rect key="frame" x="10" y="10" width="60" height="52"/>
+                                                    <rect key="frame" x="10" y="6" width="60" height="60"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="60" id="9ap-HV-qg4"/>
                                                         <constraint firstAttribute="width" constant="60" id="gzA-iV-U1x"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="フィリピン" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kJm-W1-UEN">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="フィリピン" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kJm-W1-UEN">
                                                     <rect key="frame" x="80" y="10" width="71.5" height="17"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="セブ島" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Feg-by-Zat">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="セブ島" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Feg-by-Zat">
                                                     <rect key="frame" x="80" y="29" width="94" height="37"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="31"/>
                                                     <nil key="textColor"/>
@@ -50,8 +50,9 @@
                                             <constraints>
                                                 <constraint firstItem="kJm-W1-UEN" firstAttribute="top" secondItem="IK1-Fx-8Qk" secondAttribute="top" constant="10" id="2Mq-PW-zcd"/>
                                                 <constraint firstItem="Feg-by-Zat" firstAttribute="top" secondItem="kJm-W1-UEN" secondAttribute="bottom" constant="2" id="EDf-cM-cL4"/>
+                                                <constraint firstItem="kJm-W1-UEN" firstAttribute="leading" secondItem="e66-Bk-5Kb" secondAttribute="trailing" constant="10" id="J6N-aM-dLP"/>
                                                 <constraint firstItem="e66-Bk-5Kb" firstAttribute="centerY" secondItem="IK1-Fx-8Qk" secondAttribute="centerY" id="Tv3-qx-ddz"/>
-                                                <constraint firstItem="e66-Bk-5Kb" firstAttribute="top" secondItem="IK1-Fx-8Qk" secondAttribute="top" constant="10" id="fkt-a0-0pM"/>
+                                                <constraint firstItem="Feg-by-Zat" firstAttribute="leading" secondItem="e66-Bk-5Kb" secondAttribute="trailing" constant="10" id="ccx-sW-AzP"/>
                                                 <constraint firstItem="e66-Bk-5Kb" firstAttribute="leading" secondItem="IK1-Fx-8Qk" secondAttribute="leading" constant="10" id="kPm-LJ-xvs"/>
                                             </constraints>
                                         </tableViewCellContentView>
